@@ -11,8 +11,11 @@
 <body>
    
     <div class="header">
-        <a href="index.html" class="logo">Joey's Vuurwerkshow</a>
-        <div class="header-right">
+        <div class="header-menu">
+            <h2>Joey's Vuurwerkshow</h2>
+            <button id="nav-toggle" class="button"><img src="Resources/Icon/menu-24px.svg"></button>
+        </div>
+        <div class="header-right hidden" id="nav-content">
             <a href="index.html">Home </a>
             <a href="media.html">Media</a>
             <a href="aboutme.html">Over mij</a>
@@ -31,6 +34,12 @@
             <p><input type="submit" value="Verzenden">&nbsp;<input type="reset" value="Wissen"></p></form>
     </div>
 
-
+    <script>
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function(){
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+    </script>
+    
 </body>
 </html>
