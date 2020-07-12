@@ -117,11 +117,11 @@ ul {
     background-color: red;
   }
   
-  li {
+li {
     float: left;
   }
   
-  li a {
+li a {
     display: block;
     color: black;
     font-size: 20px;
@@ -132,7 +132,7 @@ ul {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+li a:hover {
     background-color: #111;
   }
 
@@ -146,5 +146,5 @@ ul {
     .video {
       margin-top: 320px;
     }
-}
+  }
 }
