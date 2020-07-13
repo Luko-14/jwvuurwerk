@@ -30,7 +30,7 @@ ul {
   border: 2px solid rgb(50, 50, 50);
   border-radius: 4px;
   padding: .5em;
-  margin: 24px 32px 32px 24px;
+  margin: 30px 25px;
   background-color: rgb(210, 210, 210, 0.9);
 }
 
@@ -142,8 +142,7 @@ li {
   .video {
     margin-left: 16px;
     margin-right: 16px;
-    width: inherit;
-  }
+    width: inherit;  }
 }
 
 
