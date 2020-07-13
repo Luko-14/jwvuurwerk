@@ -116,7 +116,10 @@ li {
 .video {
   margin-left: 32px;
   margin-right: 32px;
-  margin-top: 112px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: max-content;
+  height: max-content;
 }
 
 @media screen and (max-width: 500px) {
@@ -137,9 +140,9 @@ li {
   }
 
   .video {
-    margin-top: 100px;
     margin-left: 16px;
     margin-right: 16px;
+    width: inherit;
   }
 }
 
