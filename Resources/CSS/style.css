@@ -150,6 +150,12 @@ li {
     float: center;
 }
 
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+
   /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
