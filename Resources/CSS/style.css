@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: linear-gradient(to right, #f12711, #f5af19);
 }
 
@@ -9,15 +9,7 @@ body, html {
   box-sizing: border-box;
 }  
 
-
-
-
-body {
-  background-image: url('img_girl.jpg');
-}
-
-
-.h1 {
+h1 {
   font-size: 32px;
   text-align: left;
 }
@@ -124,7 +116,7 @@ li {
 .video {
   margin-left: 32px;
   margin-right: 32px;
-  margin-top: 100px;
+  margin-top: 112px;
 }
 
 @media screen and (max-width: 500px) {
