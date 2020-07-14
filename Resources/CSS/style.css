@@ -29,7 +29,7 @@ h2 {
 ul {
   border: 2px solid rgb(50, 50, 50);
   border-radius: 4px;
-  padding: .5em;
+  padding: 16px;
   margin: 30px auto 30px auto;
   width: 552px;
   background-color: rgb(210, 210, 210, 0.9);
@@ -74,7 +74,7 @@ li {
 .button {
   width: 48px;
   height: 48px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid whitesmoke;
   border-radius: 4px;
 }
 
@@ -84,7 +84,7 @@ li {
 
 .header a {
   float: left;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -107,7 +107,7 @@ li {
 
 .header a.active {
   background-image: linear-gradient(to right, #f12711,#f5af19);
-  color: white;
+  color: whitesmoke;
 }
 
 .header-right {
@@ -115,13 +115,55 @@ li {
 }
 
 .video {
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  width: max-content;
-  height: max-content;
+  margin: 30px auto 30px auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: whitesmoke;
 }
+
+.card {
+  margin: 30px auto 30px auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
+  background-color: whitesmoke;
+}
+
+.responsivecard {
+  margin: 30px auto 30px auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 16px;
+  width: fit-content;
+  background-color: whitesmoke;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 1px 16px;
+  background-color: whitesmoke;
+  width: auto;
+  position: relative;
+}
+
+.logo {
+  float: center;
+}
+
+.responsive{
+max-width: 500px;
+height: auto;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 
 @media screen and (max-width: 600px) {
   .header a {
@@ -139,36 +181,49 @@ li {
     width: 80%;
     height: 48px;
   }
-
-  .video {
-    margin-left: 16px;
-    margin-right: 16px;
-    width: inherit;  }
-  
+ 
   .p,
   ul {
     border: 2px solid rgb(50, 50, 50);
-    border-radius: 4px;
     padding: .5em;
     width: auto;
     margin: 30px 24px;
     background-color: rgb(210, 210, 210, 0.9);
   }
-}
-
-
-.logo {
-    float: center;
-}
-
-.responsive{
-  max-width: 100%;
-  height: auto;
-  margin: 10px 0;
-}
-
-
-  /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+  
+  .video {
+    margin: 30px auto 30px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
   }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+  }
+  
+  .responsivecard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: fit-content;
+  }
+  
+  .container {
+    padding: 1px 16px;
+    background-color: whitesmoke;
+    width: auto;
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
