@@ -213,28 +213,28 @@ li a:hover {
 }
 /* begin ccs vuurwerk */
 @keyframes 			firework-animation {
-  0% {background-color : #ff8426;}
-  25% {background-color : #fffc84;}
-  50% {background-color : #ff83f4;}
-  75% {background-color : #83b6ff;}
-  100% {background-color : #ff8426;}
+  0% {background-color : red;}
+  25% {background-color : orange;}
+  50% {background-color : yellow;}
+  75% {background-color : green;}
+  100% {background-color : blue;}
 }
 @-webkit-keyframes 	firework-animation {
-  0% {background-color : #ff8426;}
-  25% {background-color : #fffc84;}
-  50% {background-color : #ff83f4;}
-  75% {background-color : #83b6ff;}
-  100% {background-color : #ff8426;}
+  0% {background-color : red;}
+  25% {background-color : orange;}
+  50% {background-color : yellow;}
+  75% {background-color : green;}
+  100% {background-color : blue;}
 }
 @keyframes 			firework-seed-animation	{
-  0% {background-color : #ff8426;}
-  25% {background-color : #fffc84;}
-  100% {background-color : #ff8426;}
+  0% {background-color : red;}
+  25% {background-color : rgb(0, 110, 255);}
+  100% {background-color : rgb(19, 224, 19);}
 }
 @-webkit-keyframes	firework-seed-animation	{
-  0% {background-color : #ff8426;}
-  25% {background-color : #fffc84;}
-  100% {background-color : #ff8426;}
+  0% {background-color : red;}
+  25% {background-color :rgb(0, 110, 255);}
+  100% {background-color : rgb(19, 224, 19);}
 }
 @keyframes 			firework-fade-animation {
   0% {opacity : 1;}
